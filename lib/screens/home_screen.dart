@@ -15,8 +15,8 @@ class HomeScreen extends StatelessWidget {
           appBar: AppBar(
             title: Text('Firestore Todos'),
             actions: [
-//              FilterButton(visible: activeTab == AppTab.todos),
-//              ExtraActions(),
+              FilterButton(visible: activeTab == AppTab.todos),
+              ExtraActions(),
             ],
           ),
           body: activeTab == AppTab.todos ? FilteredTodos() : Stats(),

@@ -4,3 +4,5 @@ export 'stats.dart';
 export 'todo_item.dart';
 export 'loading_indicator.dart';
 export 'delete_todo_snackbar.dart';
+export 'extra_actions.dart';
+export 'filter_button.dart';
